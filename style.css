@@ -7,7 +7,7 @@ body{
 #header{
     background-color: #1abc9c;
     height:150px;
-    line-height: 150px;
+    line-height: 10px;
 }
 #header a{
     color: white;
