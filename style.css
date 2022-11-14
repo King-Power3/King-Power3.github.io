@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+    color:#555;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Montserrat',sans-serif;
+}
+#header{
+    background-color: #1abc9c;
+    height:75px;
+    line-height: 25px;
+    padding:10px;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#header a:hover{
+    color: #222;
+}
+#header-title{
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header-nav{
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+#header-nav li{
+    display: inline;
+    padding-left: 20px;
+    margin-top: 0;
+}
+.content{
+  height: 100vh;
+  width: 100%;
+}
+.container{
+    /*max-width: 1000px;*/
+    /*margin: 0 auto;*/
+height:100vh;
+width:100%;
+align-items:center;
+justify-:center;
+display:flex;
+}
+#footer{
+    background-color: #2f2f2f;
+    padding: 25px;
+}
+#footer h4{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#footer p{
+    color: white;
+}
+a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+a:hover{
+    color: #F6A623;
+}
+.post, .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: chartreuse;
+}
+.about{
+    text-align: center;
+}
+img{
+    width: 320px;
+    height: 350px;
+}
+.post-author{
+    width: 100%;
+    height: 400px;
+    /*vertical-align: middle;*/
+    display: flex;
+    flex-direction: column;
+    justify-: center;
+    align-items: center;
+    position: relative;
+}
+.post-author img, .about-author img {
+    border-radius: 50%;
+}
+.post-author span{
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px #f00;
+}
+.post-date{
+    color: #D2D2D2;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h1, h2, h3, h4{
+    color: #333;
+}
+p{
+    line-height: 1.5;
+}
+.post-container{nth-child(even)
+    }
+.post{
+  padding: 10px;
+}
